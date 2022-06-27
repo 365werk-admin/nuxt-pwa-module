@@ -18,6 +18,7 @@ export const defaults: WorkboxOptions = {
 
   // Precache
   preCaching: [],
+  preCacheStartUrl: true,
   cacheOptions: {
     cacheId: undefined,
     directoryIndex: '/',
